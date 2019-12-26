@@ -4,7 +4,7 @@ var next = false;       //check if expression was calculated was clicked
 var expression = '';    //math operation
 var owned = false;      //check if math operator was clicked
 var wordCount = 0;      //word count of expression
-const div = document.innerHTML = document.querySelector('.screen'); //screen
+const div = document.innerHTML = document.querySelector('.screen'); //screen div
 div.innerHTML = 0;
 function change(val){
   let str = String(val);
