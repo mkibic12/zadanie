@@ -1,0 +1,52 @@
+// Your custom styles
+body {
+    font-weight: 500;
+    .container{
+        padding: 5vh 20vw;
+    .calc {
+        background-color: #f0f0f0;
+        padding: 2%;
+        -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.7);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.7);
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.7);
+        .screen {
+            width: 100%;
+            background-color: #b2b2b1;
+            height: 10vh;
+            border-radius: 15px;
+            margin-bottom: 5vh;
+            border-bottom: 1px dotted gray;
+            text-align: right;
+            font-size: 2.5rem;
+        }
+
+        .buttons {
+            margin-bottom: 1vh;
+            padding: 0;
+            height: 10vh;
+            width: 10vw;
+            button {
+                width: 95%;
+                height: 100%;
+                font-size: 1.7rem;
+                padding: 10px;
+            }
+            .btn-danger{
+                &:hover{
+                    background-color: #ee1425 !important;
+                }
+            }
+            .btn-primary{
+                &:hover{
+                    background-color: #3163e3 !important;
+                }
+            }
+            .btn-success{
+                &:hover{
+                    background-color: #00a530 !important;
+                }
+            }
+        }
+    }
+    }
+}
