@@ -17,7 +17,7 @@ function change(val){
     console.log(expression);
   }
   if(currentString == '0' && val == 0){
-    //prevent from starting at 0
+    //prevent from starting with 0
   }
   //check if math operator was clicked
  else if(isNaN(val) && val != '.'){
